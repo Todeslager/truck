@@ -20,6 +20,8 @@
 	height: 100%;
 
 	.header-layout {
+		z-index: 200;
+		position: fixed;
 		width: 100%;
 
 		.top-wrapper {
@@ -58,11 +60,14 @@
 		}
 
 		.header-top2 {
+			z-index: 100;
 			display: table;
 			position: fixed;
 			width: 100%;
 			height: 85px;
 			padding: 0 140px;
+			background-color: white;
+			border-bottom: 1px solid silver;
 
 			.top2-logo-wrap {
 				display: table-cell;
@@ -71,7 +76,7 @@
 				.top2-logo {
 					width: 220px;
 					height: 70px;
-					background: yellow;
+					background: silver;
 				}
 			}
 
@@ -97,30 +102,47 @@
 
 	.main-partners {
 		width: 100%;
-		//height: 100px;
-		padding: 60px 40px;
-		//display: block;
+		padding: 150px 140px;
 
-		.partners-pic {
-			//display: inline;
-			//width: 50%;
-			height: 200px;
-			padding: 0 50px 0 20px;
-			background-color: yellow;
-		}
+		.partners-block {
+			height: 350px;
+			padding: 0;
 
-		.partners-desc {
-			//display: inline;
-			//width: 50%;
-			height: 200px;
-			padding: 0 50px 0 20px;
-			background-color: blue;
+			.partners-block-wrap {
+				height: 100%;
+				padding: 0 40px;
+
+				.img-block {
+					height: 100%;
+					background: silver;
+				}
+
+				.desc-block {
+					height: 100%;
+
+					.desc-block-text {
+						color: black;
+						margin-bottom: 20px;
+						font-size: 15px;
+					}
+
+					h1 {
+						color: black;
+						text-transform: uppercase;
+						margin-bottom: 20px;
+					}
+				}
+			}
 		}
 	}
 
+
 	.truck-service {
 		width: 100%;
+		//height: 100%;
 		padding: 140px;
+		margin-bottom: 40px;
+		border-bottom: 1px solid silver;
 
 		.service-box {
 			padding: 0;
