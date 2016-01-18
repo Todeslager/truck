@@ -206,28 +206,18 @@
 			}
 
 			.koleso {
-				display: table;
-				position: relative;
 				height: 100%;
 				width: 100%;
 				margin-bottom: 40px;
 
-				.koleso-pic-wrap {
-					display: table-cell;
-					vertical-align: middle;
-					text-align: center;
-					height: 100%;
-					width: 100%;
-
-					.koleso-pic {
-						width: 276px;
-						height: 36px;
-						background: url('images/divider1.png');
-						background-repeat: no-repeat;
-						//background-attachment: fixed;
-						background-position: center;
-						background-size: 100% 100%;
-					}
+				.koleso-pic {
+					width: 276px;
+					height: 36px;
+					margin: 0 auto;
+					background: url('images/divider1.png');
+					background-repeat: no-repeat;
+					background-position: center;
+					background-size: 100% 100%;
 				}
 			}
 
