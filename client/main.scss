@@ -248,6 +248,10 @@
 			overflow: hidden;
 			background-size: cover;
 
+			&:hover {
+				cursor: pointer;
+			}
+
 			&:hover .service-background {
 				bottom: 0;
 				cursor: pointer;
@@ -266,14 +270,14 @@
 
 				.triangle {
 					position: absolute;
-					top:-15px;
+					top:-12px;
 					left: 50%;
-					margin-right: 24px;
+					margin-left: -12px;
 					width: 0;
 					height: 0;
 					border-style: solid;
-					border-width: 0 12px 15px 12px;
-					border-color: transparent transparent #3b7abd transparent;
+					border-width: 0 12px 12px 12px;
+					border-color: transparent transparent #f3f3f3 transparent;
 				}
 
 				.service-header {
