@@ -191,9 +191,9 @@
 
 			.koleso {
 				width: 100%;
-				background-size: cover;
 				height: 36px;
-				//display: block;
+				background: url('images/divider1.png') no-repeat fixed center;
+				background-size: 100% 100%;
 				margin-bottom: 40px;
 			}
 
@@ -205,7 +205,7 @@
 
 				li {
 					font-size: 14px;
-					color: #6e767c;
+					//color: #6e767c;
 					display: inline;
 					padding: 0 8px;
 
